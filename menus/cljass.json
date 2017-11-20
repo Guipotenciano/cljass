@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle cljass",
+        "command": "cljass:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "cljass",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "cljass:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
